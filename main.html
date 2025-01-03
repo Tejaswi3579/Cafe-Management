@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Coffee Website</title>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    <!-- Custom CSS Link -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+    <header class="header">
+        <a href="#" class="logo"> <i class="fas fa-coffee"></i> Coffee Shop</a>
+
+        <nav class="navbar">
+            <div id="close-navbar" class="fas fa-times"></div>
+
+			
+			
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#contact">contact</a>
+			<a href="profile.jsp">Profile</a>
+			<a href="logout.jsp">Logout</a>
+		</nav>
+
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+
+    </header>
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>Discover the <br> taste of real <br> coffee </h3>
+            <a href="#" class="btn">Order Now</a>
+
+        </div>
+
+    </section>
+
+    <h1 class="heading">about us</h1>
+    
+    <section class="about" id="about">
+
+        <div class="row">
+
+            <div class="image">
+                <img src="image/about.jpg" alt="about">
+            </div>
+
+            <div class="content">
+                <h3>What makes our coffee special?</h3>
+                <div class="line"></div>
+                <p>Our coffee is special because it satisfies multiple requirements, from the source to the cup1. We use specialty coffee beans that are grown in ideal conditions, picked at the right time, delivered fast, processed carefully, and roasted to perfection</p>
+            </div>
+
+        </div>
+
+    </section>
+
+<!-- end -->
+
+    <!-- Menu -->
+
+    <section class="menu" id="menu">
+
+        <h1 class="heading">menu</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="image/coffe-1.jpg" alt="">
+                <h3>Black Coffee</h3>
+                <div class="price">&#8377;140</div>
+                <button class="button" onclick="myfunction()"><input type="submit" value="order" class="btn"></button>
+                <script>
+                    function myfunction() {
+                        alert("ordered successfully.....");
+                    }
+                </script>
+                
+            </div>
+
+            <div class="box">
+                <img src="image/coffe-2.jpg" alt="">
+                <h3>Americano</h3>
+                <div class="price">&#8377;180</div>
+                <button class="button" onclick="myfunction()"><input type="submit" value="order" class="btn"></button>
+                <script>
+                    function myfunction() {
+                        alert("ordered successfully.....");
+                    }
+                </script>
+            </div>
+
+            <div class="box">
+                <img src="image/coffe-3.jpg" alt="">
+                <h3>Cappucino</h3>
+                <div class="price">&#8377;170</div>
+                <button class="button" onclick="myfunction()"><input type="submit" value="order" class="btn"></button>
+                <script>
+                    function myfunction() {
+                        alert("ordered successfully.....");
+                    }
+                </script>
+            </div>
+
+            <div class="box">
+                <img src="image/coffe4.jpeg" alt="">
+                <h3>Tornado</h3>
+                <div class="price">&#8377;200</div>
+                <button class="button" onclick="myfunction()"><input type="submit" value="order" class="btn"></button>
+                <script>
+                    function myfunction() {
+                        alert("ordered successfully.....");
+                    }
+                </script>
+            </div>
+
+            <div class="box">
+                <img src="image/coffe-5.jpg" alt="">
+                <h3>French Press Coffee</h3>
+                <div class="price">&#8377;190</div>
+                <button class="button" onclick="myfunction()"><input type="submit" value="order" class="btn"></button>
+                <script>
+                    function myfunction() {
+                        alert("ordered successfully.....");
+                    }
+                </script>
+            </div>
+
+            <div class="box">
+                <img src="image/coffe 6.webp" alt="">
+                <h3>Italy Espresso</h3>
+                <div class="price">&#8377;220</div>
+                <button class="button" onclick="myfunction()"><input type="submit" value="order" class="btn"></button>
+                <script>
+                    function myfunction() {
+                        alert("ordered successfully.....");
+                    }
+                </script>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading">Contact Us</h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="image/contact.png" alt="">
+            </div>
+
+            <form action="register">
+                <h3>Get in touch</h3>
+
+                <div class="inputBox">
+                    <span class="fas fa-user"></span>
+                    <input type="text" placeholder="name" name="name">
+                </div>
+
+                <div class="inputBox">
+                    <span class="fas fa-envelope"></span>
+                    <input type="text" placeholder="email" name="email">
+                </div>
+
+                <div class="inputBox">
+                    <span class="fas fa-phone"></span>
+                    <input type="text" placeholder="phone" name="ph">
+                </div>
+
+				<div class="inputBox">
+                    <span class="fas fa-map-marker-alt"></span>
+                    <input type="text" placeholder="Address" name="addr">
+                </div>
+
+				<div class="inputBox">
+                    <span class="fas fa-restroom"></span>
+                    <input type="text" placeholder="Gender" name="gender">
+                </div>
+				
+				<div class="inputBox">
+                    <span class=" "></span>
+                    <input type="text" placeholder="Age" name="age">
+                </div>
+
+                <button class="button" onclick="myfunction()"><input type="submit" value="Submit" class="btn"></button>
+                <script>
+                    function myfunction() {
+                        alert("submitted successfully.....");
+                    }
+                </script>
+                
+            </form>
+
+        </div>
+
+    </section>
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="image/footer-1.png" alt="">
+                <h3>address</h3>
+                <p>Vijayawada</p>
+            </div>
+    
+            <div class="box">
+                <img src="image/footer-2.png" alt="">
+                <h3>E-mail</h3>
+                <a href="#" class="link">tejaswi.3579@gmail.com</a>
+                <a href="#" class="link">mohitjonnadula16@gmail.com</a>
+            </div>
+    
+            <div class="box">
+                <img src="image/footer-3.png" alt="">
+                <h3>Call us</h3>
+                <p>9494366318</p>
+            </div>
+    
+            <div class="box">
+                <img src="image/footer-4.png" alt="">
+                <h3>Opening hours</h3>
+                <p>Monday - Friday: 8:00am - 10:00pm
+                   <br> Saturday: 10:00am - 6:00pm</p>
+            </div>
+
+        </div>
+        <center>
+            <h2>created by Tejaswi | all rights reserved! </h2>
+
+        </center>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

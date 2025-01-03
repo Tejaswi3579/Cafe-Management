@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Cafe Signup</title>
+  <style>
+        body {
+            font-family: Arial, sans-serif;
+           background-image: url(image/image-2.jpg);
+            background-size: cover;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+        .signup-container {
+            width: 300px;
+            background-color: #ffa500;
+            padding: 3%;
+            border-radius: 6px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            text-align: center;
+
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 24px;
+            box-sizing: border-box;
+            border: 1px solid #cecece;
+            border-radius: 3px;
+        }
+
+        button {
+            background-color: rgb(226,88,34);
+            width: 100%;
+            color: orange;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            margin-bottom: 28px;
+        }
+
+        button:hover {
+            background-color:rgba(171, 67, 131, 0.95);
+        }
+
+        .outer {
+            width: 300px;
+            height: 400px;
+            
+        }
+        
+        .logo {
+            width: 307px;
+            height: 65px;
+            
+            background-repeat: no-repeat;
+            margin-bottom: 40px;
+            margin-top: 30px;
+        }
+    </style>
+ </head>
+<body>
+    <div class="outer">
+        <div class="logo"></div>
+    <div class="signup-container">
+		<button onclick="myFunction()">home</button>
+	<script>
+	function myFunction(){
+	window.location.href="index.html";
+	}
+	</script>
+        <h2 style="text-align: center;">signup</h2>
+        <form id="signup" action="signup.jsp">
+            
+            <input type="text" name="name" placeholder="name" required>
+			<br>
+			<input type="email" name="email" placeholder="email" required>
+			<br>
+			<input type="text" name="username" placeholder="username" required>
+			<br>
+			<input type="password" name="password" placeholder="password" required>
+			<br>
+			<input type="text" name="gender" placeholder="gender" required>
+			<br>
+			
+           
+            <input type="submit" value="Signup">
+
+			<a href="login.html">
+		   <u>Already registered?Login</u></a>
+           <br>
+
+
+        </form>
+		
+    </div>
+    </div>
+
+
+	
+    
+
+ </body>
+</html>
